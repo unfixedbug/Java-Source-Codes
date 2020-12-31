@@ -18,7 +18,7 @@ class B{
 // also if we final a method, we cannot override it #overriding.java
 
 final class C{}
-class D extends C;//we cant do this
+// class D extends C{};//we cant do this
 
 public class FinalDemo {
     public static void main(String[] args) {

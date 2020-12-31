@@ -1,3 +1,14 @@
+interface WWriter{
+    void write();
+}
+
+class PPen implements WWriter{
+    public void write(){
+        System.out.println("im the ppen");
+    }
+ }
+
+//we have to use 'implements', we cannot create the object of intertface,we cannot define method in interface.
 class Writer{
     public void write(){
         
